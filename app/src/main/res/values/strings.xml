@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wikipedia</string>
+
+    <string name="openDrawer">open drawer</string>
+
+    <string name="closeDrawer">close drawer</string>
+</resources>

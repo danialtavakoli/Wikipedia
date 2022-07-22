@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_explore_main"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/jamiroquai" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/txt_explore_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jamiroquai"
+                android:textColor="@color/black_light"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_explore_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="British acid jaz band"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="76dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/gray_light" />
+
+            <TextView
+                android:id="@+id/txt_explore_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="6dp"
+                android:maxLines="8"
+                android:text="Jamiroquai are an English funk and acid jazz band from London. Formed in 1992, they are fronted by vocalist Jay Kay, and were prominent in the London-based funk and acid jazz movement of the 1990s. They built on their acid jazz sound in their early releases and later drew from rock, disco, electronic and Latin music genres. Lyrically, the group has addressed social and environmental justice. Kay has remained as the only original member through several line-up changes.
+The band made their debut under Acid Jazz Records, but they subsequently found mainstream success under Sony. While under this label, three of their albums have charted at number one in the UK, including Emergency on Planet Earth (1993), Synkronized (1999) and A Funk Odyssey (2001). The band's 1998 single, was also number one in their native country.
+As of 2017, Jamiroquai had sold more than 26 million albums worldwide. Their third album, Travelling Without Moving (1996), received a Guinness World Record as the best-selling funk album in history. The music video for its lead single, also contributed to the band's success. The song was named Video of the Year at the 1997 MTV Video Music Awards and earned the band a Grammy Award in 1998."
+                android:textColor="@color/black_light"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
